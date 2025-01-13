@@ -1,15 +1,11 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
 using System.Text;
 using Elements.Core;
 using FrooxEngine;
 using FrooxEngine.UIX;
 using HarmonyLib;
 using ResoniteModLoader;
-using static FrooxEngine.DynamicVariableSpace;
 
 namespace DynVarSpaceTree
 {
@@ -24,9 +20,9 @@ namespace DynVarSpaceTree
         private static ModConfiguration Config;
 
         public override string Author => "Banane9";
-        public override string Link => "https://github.com/Banane9/ResoniteDynVarSpaceTree";
+        public override string Link => "https://github.com/art0007i/ResoniteDynVarSpaceTree";// mod author banane9 but my repo link because I'm maintaining the mod now I guess?
         public override string Name => "DynVarSpaceTree";
-        public override string Version => "2.0.0";
+        public override string Version => "2.0.1";
 
         public override void OnEngineInit()
         {
